@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>My Product</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <header id="header" class="container flex">
+        <img src="Sonia..png" alt="sonia logo" id="header-img" />
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#video" class="nav-link">Explore</a></li>
+            <li><a href="#prices" class="nav-link">Prices</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- Showcase -->
+    <section class="showcase" id="features">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Best sister ever</h1>
+          <p>Iam lucky to have the best sister in the world</p>
+          <a href="#" class="btn btn-outline">Read more</a>
+        </div>
+        <div class="showcase-form card">
+          <h2>Learn more about us</h2>
+          <form id="form" action=" https://www.freecodecamp.com/email-submit">
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="number" name="age" id="age" placeholder="Age" />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <input
+              type="submit"
+              value="Get Started"
+              id="submit"
+              name="get started"
+              class="btn btn-primary"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading text-center">
+          Welcome to the best platform for building applications of all types
+          with modern architecture and scaling
+        </h3>
+        <div class="grid grid3 text-center my-4">
+          <div>
+            <i class="fas fa-shield-alt fa-3x"></i>
+            <h3>10,321,532</h3>
+            <p class="text-secondary">Hacking Blocked</p>
+          </div>
+          <div>
+            <i class="fas fa-upload fa-3x"></i>
+            <h3>981 TB</h3>
+            <p class="text-secondary">Uploads</p>
+          </div>
+          <div>
+            <i class="fas fa-project-diagram fa-3x"></i>
+            <h3>2,544,456</h3>
+            <p class="text-secondary">Project</p>
+          </div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+
+    <section class="video">
+      <div class="container text-center">
+        <h3 class="my-3">Watch this Youtube Video!</h3>
+        <div class="videoWrapper">
+          <!-- Copy & Pasted from YouTube -->
+          <iframe
+            id="video"
+            width="560"
+            height="349"
+            src="http://www.youtube.com/embed/sZif1kuAjcY"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prices -->
+    <section id="prices" class="prices bg-primary my-3">
+      <div class="container">
+        <h2 class="prices-heading text-center my-4">
+          These are the prices for the different services
+        </h2>
+        <div class="grid grid3">
+          <div class="card price-card text-center">
+            <h4>Storage</h4>
+            <h5>$400</h5>
+            <p>Get premium unlimited storage a sonia with a fair price.</p>
+            <a href="#" class="btn btn-price">Select</a>
+          </div>
+          <div class="card price-card text-center">
+            <h4>Uploads</h4>
+            <h5>$600</h5>
+            <p>Unlimited uploads with premium subscription from sonia.</p>
+            <a href="#" class="btn btn-price">Select</a>
+          </div>
+          <div class="card price-card text-center">
+            <h4>Storage</h4>
+            <h5>$1000</h5>
+            <p>Get premium unlimited storage a sonia with a fair price.</p>
+            <a href="#" class="btn btn-price">Select</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid3">
+        <div>
+          <h1>Sonia</h1>
+          <p>Copyright &copy; 2021</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="docs.html">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
